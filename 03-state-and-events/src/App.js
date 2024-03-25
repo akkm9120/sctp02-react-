@@ -3,6 +3,7 @@ import './style.css'
 import NumberBox from "./NumberBox"
 import AlertBox from './Alert';
 import Dice from './Dice';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 

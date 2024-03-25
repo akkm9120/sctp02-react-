@@ -9,7 +9,7 @@ function Dice(){
                         "border":"2px solid green",
                         "color": "#fffff",
                         "backgroundColor": dice % 2 === 0 ? "green" : "red" }} 
-                        onClick={Random}>
+                        onClick={Random} className ="text-uppercase">
 
         The number on your Dice is {dice} 
     </div>
