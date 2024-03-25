@@ -1,6 +1,8 @@
 import "./style.css";
 import { useState } from "react";
 import Radio from "./Radio";
+import Hobbies from "./Hobbies";
+
 export default function App() {
   const [productCode, setProductCode] = useState("");
   const [productName, setProductName] = useState("");
@@ -30,6 +32,7 @@ export default function App() {
       </div>
       <button onClick={() => { alert([productCode, productName]); }}>Submit</button>
       <Radio />
+      <Hobbies/>
     </div>
 
 
