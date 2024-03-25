@@ -1,13 +1,14 @@
 import "./style.css";
 import { useState } from "react";
+import Radio from "./Radio";
 export default function App() {
   const [productCode, setProductCode] = useState("");
   const [productName, setProductName] = useState("");
 
-  const handleCodeChange = (event)=>{
+  const handleCodeChange = (event) => {
     setProductCode(event.target.value)
   }
-  const handleNameChange = (event)=>{
+  const handleNameChange = (event) => {
     setProductName(event.target.value)
   }
 
@@ -15,20 +16,24 @@ export default function App() {
     <div className="App">
       <div>
         <label>Product Code</label>
-        <input type="text" 
-              value={productCode}
-              onChange={handleCodeChange}
+        <input type="text"
+          value={productCode}
+          onChange={handleCodeChange}
         />
 
       </div>
       <div>
         <label>Product Name</label>
         <input type="text"
-              value={productName} 
-              onChange={handleNameChange}/>
+          value={productName}
+          onChange={handleNameChange} />
       </div>
-
-      <button onClick={() => {alert([productCode,productName]); }}>Submit</button>
+      <button onClick={() => { alert([productCode, productName]); }}>Submit</button>
+      <Radio />
     </div>
+
+
+
+
   );
 }
