@@ -16,7 +16,7 @@ export default function App() {
   return (
     <React.Fragment>
       <div className="App">
-        { !isSubmitting ? 
+        { !isSubmitting ? ~
           (
             <Form userName = {userName}
                   setUserName={setUserName}
