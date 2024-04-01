@@ -37,7 +37,7 @@ function App() {
 
 
         {/* Contact Us route */}
-       <Route path="contact" element={<ContactUs/>}/>
+       <Route path="/contact" element={<ContactUs/>}/>
 
 
         <Route path="/form-submitted" element={<SubmittedForm />} />
