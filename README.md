@@ -6,7 +6,7 @@ This documentation aims to provide guidance on effectively using React's core ho
 The useState hook allows functional components to incorporate state management. It consists of two elements: the current state value and a function to update that state.
 
 ### Example
-
+```react
 import { useState } from 'react';
 
 function Counter() {
@@ -19,9 +19,10 @@ function Counter() {
     </div>
   );
 }
+```
 In this example, the count variable holds the current state value, and setCount is the function used to update the state.
 
-`useEffect`
+## `useEffect`
 The useEffect hook facilitates performing side effects within functional components. It accepts two arguments: a function representing the effect and an optional array of dependencies.
 
 ### Example
@@ -52,7 +53,7 @@ function UserProfile() {
 
 In this example, the useEffect hook is used to fetch user data and update the component's state when the component mounts.
 
-`useContext`
+## `useContext`
 The useContext hook allows accessing context values provided by React.createContext without manually passing props down the component tree.
 
 Example
