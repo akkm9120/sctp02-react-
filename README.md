@@ -20,7 +20,7 @@ function Counter() {
   );
 }
 ```
-![Uploading codetoflow.png…]()
+![screenshot](codetoflow.png)
 
 
 In this example, the count variable holds the current state value, and setCount is the function used to update the state.
