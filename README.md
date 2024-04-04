@@ -1,5 +1,5 @@
 # React Hooks Documentation
-## Introduction
+## **Introduction**
 This documentation aims to provide guidance on effectively using React's core hooks: useState, useEffect, and useContext. Understanding these hooks is essential for developing efficient and functional React applications.
 
 ## `useState`
