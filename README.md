@@ -26,7 +26,7 @@ In this example, the count variable holds the current state value, and setCount 
 The useEffect hook facilitates performing side effects within functional components. It accepts two arguments: a function representing the effect and an optional array of dependencies.
 
 ### Example
-
+```react
 import { useState, useEffect } from 'react';
 
 function UserProfile() {
@@ -50,14 +50,14 @@ function UserProfile() {
     </div>
   );
 }
-
+```
 In this example, the useEffect hook is used to fetch user data and update the component's state when the component mounts.
 
 ## `useContext`
 The useContext hook allows accessing context values provided by React.createContext without manually passing props down the component tree.
 
 Example
-
+```react
 import { createContext, useContext } from 'react';
 
 const ThemeContext = createContext(null);
@@ -99,6 +99,6 @@ function Button({ children }) {
     </button>
   );
 }
-
+```
 In this example, the useContext hook is used to access the ThemeContext value provided by the MyApp component.
 
