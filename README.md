@@ -20,6 +20,9 @@ function Counter() {
   );
 }
 ```
+![Uploading codetoflow.png…]()
+
+
 In this example, the count variable holds the current state value, and setCount is the function used to update the state.
 1. Declaring State Variables: Use the useState hook to declare state variables within your functional component. The hook returns an array with two elements: the current state value and a function to update that state.
    ```react
