@@ -1,13 +1,12 @@
-React Hooks Documentation
-Introduction
+# React Hooks Documentation
+## Introduction
 This documentation aims to provide guidance on effectively using React's core hooks: useState, useEffect, and useContext. Understanding these hooks is essential for developing efficient and functional React applications.
 
-useState
+`useState`
 The useState hook allows functional components to incorporate state management. It consists of two elements: the current state value and a function to update that state.
 
-Example
-javascript
-Copy code
+### Example
+
 import { useState } from 'react';
 
 function Counter() {
@@ -22,12 +21,11 @@ function Counter() {
 }
 In this example, the count variable holds the current state value, and setCount is the function used to update the state.
 
-useEffect
+`useEffect`
 The useEffect hook facilitates performing side effects within functional components. It accepts two arguments: a function representing the effect and an optional array of dependencies.
 
-Example
-javascript
-Copy code
+### Example
+
 import { useState, useEffect } from 'react';
 
 function UserProfile() {
@@ -51,14 +49,14 @@ function UserProfile() {
     </div>
   );
 }
+
 In this example, the useEffect hook is used to fetch user data and update the component's state when the component mounts.
 
-useContext
+`useContext`
 The useContext hook allows accessing context values provided by React.createContext without manually passing props down the component tree.
 
 Example
-javascript
-Copy code
+
 import { createContext, useContext } from 'react';
 
 const ThemeContext = createContext(null);
@@ -100,5 +98,6 @@ function Button({ children }) {
     </button>
   );
 }
+
 In this example, the useContext hook is used to access the ThemeContext value provided by the MyApp component.
 
