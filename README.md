@@ -20,7 +20,8 @@ function Counter() {
   );
 }
 ```
-![screenshot](codetoflow.png)
+![codetoflow](https://github.com/akkm9120/sctp02-react-/assets/150890227/8b685a7c-dc7b-4603-872c-97f61d6caad3)
+
 
 
 In this example, the count variable holds the current state value, and setCount is the function used to update the state.
