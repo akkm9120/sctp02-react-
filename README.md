@@ -64,6 +64,8 @@ function UserProfile() {
   );
 }
 ```
+![codetoflow (1)](https://github.com/akkm9120/sctp02-react-/assets/150890227/f200185a-a85c-4019-8b8b-486b20f8ff1c)
+
 In this example, the useEffect hook is used to fetch user data and update the component's state when the component mounts.
 
 ## `useContext`
