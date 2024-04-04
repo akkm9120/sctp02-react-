@@ -65,7 +65,7 @@ In this example, the useEffect hook is used to fetch user data and update the co
 ## `useContext`
 The useContext hook allows accessing context values provided by React.createContext without manually passing props down the component tree.
 
-Example
+### Example
 ```react
 import { createContext, useContext } from 'react';
 
